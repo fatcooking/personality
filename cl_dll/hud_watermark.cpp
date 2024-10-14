@@ -65,7 +65,7 @@ int CHudWatermark::Draw(float time)
 			gEngfuncs.Con_Printf("version.txt not found");
 		}
 
-	sprintf(displayString, "Half-Life: Zombies Ate My Neighbours Multiplayer %s", zamnhlmpVersion);
+	sprintf(displayString, "ZAMNHLMP Personality Update 1.0");
 
 	gEngfuncs.pfnDrawString(ScreenWidth / 20, gHUD.m_scrinfo.iCharHeight, "Aura client build " __DATE__, r, g, b);
 	gEngfuncs.pfnDrawString(ScreenWidth / 20, gHUD.m_scrinfo.iCharHeight * 2, displayString, r, g, b);
